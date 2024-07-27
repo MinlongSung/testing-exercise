@@ -7,12 +7,12 @@ import {
   Button,
 } from '@mui/material';
 
-interface LabelProps {
+export interface LabelProps {
   closeButton: string;
   acceptButton: string;
 }
 
-interface Props {
+export interface Props {
   isOpen: boolean;
   onAccept: () => void;
   onClose: () => void;
